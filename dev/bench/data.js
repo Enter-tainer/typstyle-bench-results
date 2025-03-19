@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740975068746,
+  "lastUpdate": 1742395914122,
   "repoUrl": "https://github.com/Enter-tainer/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -7199,6 +7199,126 @@ window.BENCHMARK_DATA = {
             "name": "pretty-touying-utils",
             "value": 1259958,
             "range": "± 54470",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "quadnucyard@gmail.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "committer": {
+            "email": "2380433991@qq.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "distinct": true,
+          "id": "f914fac92d0f3c526e465a334fbb4ff15947f0ae",
+          "message": "build: bump typst to v0.13.1",
+          "timestamp": "2025-03-19T22:47:12+08:00",
+          "tree_id": "51fa314cae1a1f87dc3227f03f494210acc4d076",
+          "url": "https://github.com/Enter-tainer/typstyle/commit/f914fac92d0f3c526e465a334fbb4ff15947f0ae"
+        },
+        "date": 1742395913861,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "attrs-undergraduate-math",
+            "value": 126034,
+            "range": "± 4098",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-cetz-manual",
+            "value": 89994,
+            "range": "± 3201",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-codly",
+            "value": 244589,
+            "range": "± 5848",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-fletcher-diagram",
+            "value": 51969,
+            "range": "± 1318",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-fletcher-draw",
+            "value": 156812,
+            "range": "± 3462",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-tablex",
+            "value": 471639,
+            "range": "± 15223",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-touying-core",
+            "value": 300320,
+            "range": "± 6933",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-touying-utils",
+            "value": 164821,
+            "range": "± 6618",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 878171,
+            "range": "± 23278",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 816615,
+            "range": "± 13779",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1886015,
+            "range": "± 41923",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 534489,
+            "range": "± 11074",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1290215,
+            "range": "± 26642",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3539003,
+            "range": "± 82744",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2286813,
+            "range": "± 59861",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1286536,
+            "range": "± 40881",
             "unit": "ns/iter"
           }
         ]
