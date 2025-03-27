@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743000571456,
+  "lastUpdate": 1743039701782,
   "repoUrl": "https://github.com/Enter-tainer/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -7799,6 +7799,126 @@ window.BENCHMARK_DATA = {
             "name": "pretty-touying-utils",
             "value": 1191747,
             "range": "± 18298",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "grey@grayespinoza.dev",
+            "name": "Grey",
+            "username": "grayespinoza"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "974979056e5a939185a5beda8e6e335a4a79da52",
+          "message": "Add typstyle-action GitHub Action to README (#245)\n\n* Added typstyle-action to README\n\n* docs: added using GitHub Action\n\nCo-authored-by: Wenzhuo Liu <lwzbill@foxmail.com>\n\n---------\n\nCo-authored-by: Wenzhuo Liu <lwzbill@foxmail.com>",
+          "timestamp": "2025-03-27T01:38:03Z",
+          "tree_id": "c9f5dcc9eb6435e4ca412e3aea2fae86e0ed0f96",
+          "url": "https://github.com/Enter-tainer/typstyle/commit/974979056e5a939185a5beda8e6e335a4a79da52"
+        },
+        "date": 1743039701093,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "attrs-undergraduate-math",
+            "value": 120410,
+            "range": "± 2152",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-cetz-manual",
+            "value": 87135,
+            "range": "± 3733",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-codly",
+            "value": 239341,
+            "range": "± 4098",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-fletcher-diagram",
+            "value": 52854,
+            "range": "± 787",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-fletcher-draw",
+            "value": 149139,
+            "range": "± 10404",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-tablex",
+            "value": 460544,
+            "range": "± 5645",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-touying-core",
+            "value": 294000,
+            "range": "± 2673",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "attrs-touying-utils",
+            "value": 158513,
+            "range": "± 2195",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 838763,
+            "range": "± 11409",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 754962,
+            "range": "± 7082",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1806562,
+            "range": "± 22373",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 514198,
+            "range": "± 6395",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1236494,
+            "range": "± 94861",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3375547,
+            "range": "± 51160",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2154839,
+            "range": "± 15827",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1196664,
+            "range": "± 13790",
             "unit": "ns/iter"
           }
         ]
