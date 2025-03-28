@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743171249905,
+  "lastUpdate": 1743174389727,
   "repoUrl": "https://github.com/Enter-tainer/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -8357,6 +8357,84 @@ window.BENCHMARK_DATA = {
             "name": "pretty-touying-utils",
             "value": 1181964,
             "range": "± 11603",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mgt@oi-wiki.org",
+            "name": "mgt",
+            "username": "Enter-tainer"
+          },
+          "committer": {
+            "email": "2380433991@qq.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "distinct": true,
+          "id": "544b22baa581ecdf06075c1366c80b89e259bf4a",
+          "message": "chore: bump to v0.13.2",
+          "timestamp": "2025-03-28T23:04:02+08:00",
+          "tree_id": "e94e5a536708092b9de2b5800b6a3a1cbd6d3dc9",
+          "url": "https://github.com/Enter-tainer/typstyle/commit/544b22baa581ecdf06075c1366c80b89e259bf4a"
+        },
+        "date": 1743174389184,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 844039,
+            "range": "± 22831",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 10317053,
+            "range": "± 1284825",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 747572,
+            "range": "± 44798",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1791243,
+            "range": "± 16463",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 505156,
+            "range": "± 9050",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1224230,
+            "range": "± 16142",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3351555,
+            "range": "± 30445",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2137322,
+            "range": "± 75515",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1186418,
+            "range": "± 15132",
             "unit": "ns/iter"
           }
         ]
