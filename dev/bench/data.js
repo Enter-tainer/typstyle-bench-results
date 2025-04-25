@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744903167794,
+  "lastUpdate": 1745593487450,
   "repoUrl": "https://github.com/Enter-tainer/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -8903,6 +8903,84 @@ window.BENCHMARK_DATA = {
             "name": "pretty-touying-utils",
             "value": 1151251,
             "range": "± 13728",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "quadnucyard@gmail.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7ad408d8c6b22a1f51b59eaca2dc935c7bb21aef",
+          "message": "feat(test): reimplement the e2e&consistency test framework to support combinations and full error reporting (#263)\n\n* ci: continue on error\n\n* test: check compilation in repo-e2e\n\n* dev: move config of e2e repos to toml file\n\n* dev: update testcase revisions and support dir in blacklist\n\n* fix: toml deserialization\n\n* fix: filter and testcases\n\n* dev: fix testcases\n\n* test: strip trailing spaces in consistency check\n\n* dev: add more repos\n\n* dev: new compile&compare procedure\n\n* dev: add error contexts\n\n* dev: fix pass condition\n\n* fix: loading examples\n\n* dev: support combinations of formatted worlds and entries\n\n* fix: trait upcasting coercion\n\n* dev: trim source text and other changes\n\n* dev: add pretty assertions back\n\n* feat: support stacked error collection\n\n* dev: add error context to formatter fn\n\n* docs: add some docs to structs",
+          "timestamp": "2025-04-25T23:01:47+08:00",
+          "tree_id": "627f41329c64810290f6d0c004fc717d3b6b3a1a",
+          "url": "https://github.com/Enter-tainer/typstyle/commit/7ad408d8c6b22a1f51b59eaca2dc935c7bb21aef"
+        },
+        "date": 1745593487261,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 905993,
+            "range": "± 13039",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 11289508,
+            "range": "± 630812",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 788754,
+            "range": "± 6165",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1741887,
+            "range": "± 14045",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 496411,
+            "range": "± 4984",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1198759,
+            "range": "± 16161",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3237612,
+            "range": "± 11541",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2070258,
+            "range": "± 22374",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1163307,
+            "range": "± 11893",
             "unit": "ns/iter"
           }
         ]
