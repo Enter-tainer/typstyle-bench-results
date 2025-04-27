@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1745668755170,
+  "lastUpdate": 1745763464071,
   "repoUrl": "https://github.com/Enter-tainer/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -9059,6 +9059,84 @@ window.BENCHMARK_DATA = {
             "name": "pretty-touying-utils",
             "value": 1164555,
             "range": "± 15200",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "quadnucyard@gmail.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "75661cfa4ae02af08dae87225c3f13c15fe90b5d",
+          "message": "feat: wrap text in markup (#260)\n\n* feat: wrap text in markup\n\n* feat: do not suppress break when text-wrapping is enabled\n\n* dev: split doc builder function for reflow\n\n* feat: make block equation occupy one line exclusively\n\n* test: test text wrapping in e2e\n\n* fix: line to space logic\n\n* fix: some problems in e2e\n\n* test: add multilingual test case\n\n* dev: organize code",
+          "timestamp": "2025-04-27T22:15:28+08:00",
+          "tree_id": "9721dcc133fc9cf29a9ddf3e125e7f5b36fb1ae2",
+          "url": "https://github.com/Enter-tainer/typstyle/commit/75661cfa4ae02af08dae87225c3f13c15fe90b5d"
+        },
+        "date": 1745763463784,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 891652,
+            "range": "± 9852",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 9788363,
+            "range": "± 87528",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 788660,
+            "range": "± 13556",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1723521,
+            "range": "± 32703",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 487983,
+            "range": "± 8129",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1182497,
+            "range": "± 21426",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3203185,
+            "range": "± 62690",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2052363,
+            "range": "± 25435",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1146712,
+            "range": "± 32508",
             "unit": "ns/iter"
           }
         ]
