@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1745766841383,
+  "lastUpdate": 1746016803236,
   "repoUrl": "https://github.com/Enter-tainer/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -9215,6 +9215,84 @@ window.BENCHMARK_DATA = {
             "name": "pretty-touying-utils",
             "value": 1147080,
             "range": "± 31460",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "quadnucyard@gmail.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e07fc37bc8d3e6aab7946b012c16f6a89a218b2d",
+          "message": "feat: align math by align points (#266)\n\n* feat: align math by align points in simple cases\n\n* fix: incorrect splitting and padding in empty cases\n\n* feat: align multiline cells\n\n* feat: support align points in math delimited by flattening\n\n* feat: support nested alignment\n\n* fix: bad padding corner cases\n\n* feat: do not align if exceeding max width\n\n* feat: handle aligned with line comments\n\n* dev: organize code\n\n* feat: better right alignment with structure kept\n\n* dev: clean up code and fix testcase\n\n* feat: do not align subtrees with multiline strings",
+          "timestamp": "2025-04-30T20:37:29+08:00",
+          "tree_id": "1b287924f450f990f72761c53a860a5891e20258",
+          "url": "https://github.com/Enter-tainer/typstyle/commit/e07fc37bc8d3e6aab7946b012c16f6a89a218b2d"
+        },
+        "date": 1746016802935,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 981172,
+            "range": "± 12263",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 12998260,
+            "range": "± 119454",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 839580,
+            "range": "± 12034",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1856441,
+            "range": "± 16601",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 527635,
+            "range": "± 8921",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1272275,
+            "range": "± 17722",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3432210,
+            "range": "± 23063",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2203114,
+            "range": "± 18421",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1238794,
+            "range": "± 12240",
             "unit": "ns/iter"
           }
         ]
