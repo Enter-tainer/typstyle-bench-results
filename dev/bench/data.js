@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1746016803236,
+  "lastUpdate": 1746018269327,
   "repoUrl": "https://github.com/Enter-tainer/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -9293,6 +9293,84 @@ window.BENCHMARK_DATA = {
             "name": "pretty-touying-utils",
             "value": 1238794,
             "range": "± 12240",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "quadnucyard@gmail.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9a977d313e542e4377e7a20cf9938b6e785d6d10",
+          "message": "feat: compact layout for args of func_call (#261)\n\n* feat: compact layout for args of func_call\n\n* fix: hardline is undesirable in union\n\n* fix: should not fail in union\n\n* feat: do not use compact layout if last arg is binary expr\n\n* dev: simplify doc a bit\n\n* feat: still force fold in some cases to avoid bad output\n\n* fix: keep linebreaks in args\n\n* feat: still do not always fold named args\n\n* dev: clean up code",
+          "timestamp": "2025-04-30T21:01:36+08:00",
+          "tree_id": "797b1a2e97a63db401472c767df65b02b359fc56",
+          "url": "https://github.com/Enter-tainer/typstyle/commit/9a977d313e542e4377e7a20cf9938b6e785d6d10"
+        },
+        "date": 1746018269096,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 1018476,
+            "range": "± 27394",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 12907711,
+            "range": "± 369693",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 967470,
+            "range": "± 9799",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 2045663,
+            "range": "± 11511",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 579121,
+            "range": "± 8442",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1436632,
+            "range": "± 19451",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3801997,
+            "range": "± 73140",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2523942,
+            "range": "± 19288",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1370620,
+            "range": "± 18200",
             "unit": "ns/iter"
           }
         ]
