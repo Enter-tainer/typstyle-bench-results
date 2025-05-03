@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1746031600517,
+  "lastUpdate": 1746285147053,
   "repoUrl": "https://github.com/Enter-tainer/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -9605,6 +9605,84 @@ window.BENCHMARK_DATA = {
             "name": "pretty-touying-utils",
             "value": 1321442,
             "range": "± 12306",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mgt@oi-wiki.org",
+            "name": "mgt",
+            "username": "Enter-tainer"
+          },
+          "committer": {
+            "email": "lwzbill@foxmail.com",
+            "name": "Wenzhuo Liu",
+            "username": "Enter-tainer"
+          },
+          "distinct": true,
+          "id": "9e18adbd3e503961eb16d54aec02a80fed4609a4",
+          "message": "feat: add method to set wrap text option in Config",
+          "timestamp": "2025-05-03T23:10:10+08:00",
+          "tree_id": "767068f55299a0a75f2ac5a10554927157824c2a",
+          "url": "https://github.com/Enter-tainer/typstyle/commit/9e18adbd3e503961eb16d54aec02a80fed4609a4"
+        },
+        "date": 1746285146798,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 1028788,
+            "range": "± 27466",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 13246359,
+            "range": "± 291014",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 947955,
+            "range": "± 8049",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1955982,
+            "range": "± 32668",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 560551,
+            "range": "± 7117",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1358667,
+            "range": "± 16790",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3609769,
+            "range": "± 17180",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2326477,
+            "range": "± 12953",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1308169,
+            "range": "± 11501",
             "unit": "ns/iter"
           }
         ]
