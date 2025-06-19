@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1750321403776,
+  "lastUpdate": 1750323153535,
   "repoUrl": "https://github.com/Enter-tainer/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -12365,6 +12365,90 @@ window.BENCHMARK_DATA = {
             "name": "pretty-deep-nested-args",
             "value": 771807564,
             "range": "± 4845308",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "quadnucyard@gmail.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e62d40f41bb0651b7851c9b90ebff02bc3095692",
+          "message": "docs: write docs in typst with shiroa and add more details (#310)\n\n* docs: write docs in typst with shiroa and add more details\n\n* dev: use hypraw to render code\n\n* dev: improve example styles\n\n* dev: add callout component\n\n* dev: revise docs\n\n* dev: adjust structure\n\n* chore: clean up",
+          "timestamp": "2025-06-19T16:48:32+08:00",
+          "tree_id": "57ebc6e58abdba289bfeab3910504462b953ce88",
+          "url": "https://github.com/Enter-tainer/typstyle/commit/e62d40f41bb0651b7851c9b90ebff02bc3095692"
+        },
+        "date": 1750323153293,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 920134,
+            "range": "± 3891",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 12686720,
+            "range": "± 99623",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 827175,
+            "range": "± 4974",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1956852,
+            "range": "± 12691",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 548530,
+            "range": "± 2957",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1343175,
+            "range": "± 15463",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3596544,
+            "range": "± 13350",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2314331,
+            "range": "± 17563",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1297231,
+            "range": "± 16820",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-deep-nested-args",
+            "value": 777745279,
+            "range": "± 3431470",
             "unit": "ns/iter"
           }
         ]
