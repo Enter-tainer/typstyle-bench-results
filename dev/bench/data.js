@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1750651780651,
-  "repoUrl": "https://github.com/Enter-tainer/typstyle",
+  "lastUpdate": 1750902326140,
+  "repoUrl": "https://github.com/typstyle-rs/typstyle",
   "entries": {
     "Rust Benchmark": [
       {
@@ -12701,6 +12701,90 @@ window.BENCHMARK_DATA = {
             "name": "pretty-deep-nested-args",
             "value": 772965874,
             "range": "± 5604742",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "quadnucyard@gmail.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "committer": {
+            "email": "2380433991@qq.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "distinct": true,
+          "id": "38a6d520c22734ff14b1c1bb9b762803d943f10e",
+          "message": "ci: improve triggers and permissions in workflows",
+          "timestamp": "2025-06-26T09:41:38+08:00",
+          "tree_id": "65de385d3362152958400377eb7a908f2c7629db",
+          "url": "https://github.com/typstyle-rs/typstyle/commit/38a6d520c22734ff14b1c1bb9b762803d943f10e"
+        },
+        "date": 1750902325895,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 920251,
+            "range": "± 5865",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 17657074,
+            "range": "± 3221915",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 831733,
+            "range": "± 10206",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1976527,
+            "range": "± 13013",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 556280,
+            "range": "± 3213",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1368149,
+            "range": "± 18519",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3653845,
+            "range": "± 21104",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2341099,
+            "range": "± 11941",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1320925,
+            "range": "± 20627",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-deep-nested-args",
+            "value": 795504278,
+            "range": "± 5316653",
             "unit": "ns/iter"
           }
         ]
