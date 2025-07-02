@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1751448802799,
+  "lastUpdate": 1751470100282,
   "repoUrl": "https://github.com/typstyle-rs/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -13709,6 +13709,90 @@ window.BENCHMARK_DATA = {
             "name": "pretty-deep-nested-args",
             "value": 812462984,
             "range": "± 4778193",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mgt@oi-wiki.org",
+            "name": "Wenzhuo Liu",
+            "username": "Enter-tainer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "36a3d1433281190a613abf3728cd6577c83fb8dc",
+          "message": "chore: update version to v0.13.13 (#346)\n\n* chore: update version to v0.13.13\n\n* Update CHANGELOG.md\n\nCo-authored-by: gemini-code-assist[bot] <176961590+gemini-code-assist[bot]@users.noreply.github.com>\n\n---------\n\nCo-authored-by: gemini-code-assist[bot] <176961590+gemini-code-assist[bot]@users.noreply.github.com>",
+          "timestamp": "2025-07-02T15:23:45Z",
+          "tree_id": "19dbc8b9b427cd03b2b38edc78270fdd997793d8",
+          "url": "https://github.com/typstyle-rs/typstyle/commit/36a3d1433281190a613abf3728cd6577c83fb8dc"
+        },
+        "date": 1751470099998,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 913510,
+            "range": "± 5205",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 12607327,
+            "range": "± 206462",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 831164,
+            "range": "± 6808",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1932786,
+            "range": "± 24138",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 558180,
+            "range": "± 2488",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1348840,
+            "range": "± 9462",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3601818,
+            "range": "± 11297",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2322482,
+            "range": "± 7329",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1299241,
+            "range": "± 16743",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-deep-nested-args",
+            "value": 823953376,
+            "range": "± 6081010",
             "unit": "ns/iter"
           }
         ]
