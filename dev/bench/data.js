@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752304871669,
+  "lastUpdate": 1752307894033,
   "repoUrl": "https://github.com/typstyle-rs/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -14381,6 +14381,90 @@ window.BENCHMARK_DATA = {
             "name": "pretty-deep-nested-args",
             "value": 17470,
             "range": "± 39",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5223f9ea0eaeb5716d1802f9cdcb42215d6448b1",
+          "message": "feat(cli): show format diff output with `--diff` option (#365)\n\n* Initial plan\n\n* Initial plan for adding unified diff output to --check option\n\nCo-authored-by: Enter-tainer <25521218+Enter-tainer@users.noreply.github.com>\n\n* Add unified diff output to --check option\n\nCo-authored-by: Enter-tainer <25521218+Enter-tainer@users.noreply.github.com>\n\n* Refactor unified diff output to use similar crate's built-in API\n\nCo-authored-by: Enter-tainer <25521218+Enter-tainer@users.noreply.github.com>\n\n* Add separate --diff option and restore original --check behavior\n\nCo-authored-by: QuadnucYard <50077758+QuadnucYard@users.noreply.github.com>\n\n* use rich diff\n\n* update snapshots\n\n* fmt\n\n* revert: logging change\n\n* docs: update\n\n* fix(test): use --diff\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: Enter-tainer <25521218+Enter-tainer@users.noreply.github.com>\nCo-authored-by: QuadnucYard <50077758+QuadnucYard@users.noreply.github.com>\nCo-authored-by: QuadnucYard <quadnucyard@gmail.com>",
+          "timestamp": "2025-07-12T16:08:52+08:00",
+          "tree_id": "9b6ea7594031183a38e1497653dfb97578b1a43c",
+          "url": "https://github.com/typstyle-rs/typstyle/commit/5223f9ea0eaeb5716d1802f9cdcb42215d6448b1"
+        },
+        "date": 1752307893775,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 869199,
+            "range": "± 10238",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 12669324,
+            "range": "± 258770",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 753499,
+            "range": "± 9282",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1872268,
+            "range": "± 40040",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 542891,
+            "range": "± 3471",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1301184,
+            "range": "± 21422",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3442677,
+            "range": "± 133289",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2217584,
+            "range": "± 14619",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1237801,
+            "range": "± 18379",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-deep-nested-args",
+            "value": 17593,
+            "range": "± 51",
             "unit": "ns/iter"
           }
         ]
