@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752288302662,
+  "lastUpdate": 1752304871669,
   "repoUrl": "https://github.com/typstyle-rs/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -14297,6 +14297,90 @@ window.BENCHMARK_DATA = {
             "name": "pretty-deep-nested-args",
             "value": 17402,
             "range": "± 45",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bfc3c0d5b495cca13ce655eac04057995917e140",
+          "message": "feat(web): support sharing links for playground (#357)\n\n* Initial plan\n\n* Initial plan for MWE link generation feature\n\nCo-authored-by: Enter-tainer <25521218+Enter-tainer@users.noreply.github.com>\n\n* Add MWE link generation functionality\n\nCo-authored-by: Enter-tainer <25521218+Enter-tainer@users.noreply.github.com>\n\n* Add mock WASM module for testing MWE link functionality\n\nCo-authored-by: Enter-tainer <25521218+Enter-tainer@users.noreply.github.com>\n\n* Fix Unicode support for btoa/atob in URL encoding\n\nCo-authored-by: Enter-tainer <25521218+Enter-tainer@users.noreply.github.com>\n\n* Add shz.al pastebin integration for long URLs\n\nCo-authored-by: Enter-tainer <25521218+Enter-tainer@users.noreply.github.com>\n\n* fix: remove expire\n\n* chore: remove unused\n\n* improve modulation and fix styles\n\n* avoid overlapping\n\n* improve toast style\n\n* remove share params from loaded url\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: Enter-tainer <25521218+Enter-tainer@users.noreply.github.com>\nCo-authored-by: mgt <mgt@oi-wiki.org>\nCo-authored-by: QuadnucYard <quadnucyard@gmail.com>",
+          "timestamp": "2025-07-12T15:18:38+08:00",
+          "tree_id": "ea170f1747bbea058549871371247d3913f37e14",
+          "url": "https://github.com/typstyle-rs/typstyle/commit/bfc3c0d5b495cca13ce655eac04057995917e140"
+        },
+        "date": 1752304871412,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 872065,
+            "range": "± 4960",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 12639312,
+            "range": "± 118290",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 760512,
+            "range": "± 7764",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1877345,
+            "range": "± 12794",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 539673,
+            "range": "± 3985",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1312719,
+            "range": "± 27236",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3486906,
+            "range": "± 50773",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2239975,
+            "range": "± 21716",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1245073,
+            "range": "± 24576",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-deep-nested-args",
+            "value": 17470,
+            "range": "± 39",
             "unit": "ns/iter"
           }
         ]
