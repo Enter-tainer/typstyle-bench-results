@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752246716086,
+  "lastUpdate": 1752288302662,
   "repoUrl": "https://github.com/typstyle-rs/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -14213,6 +14213,90 @@ window.BENCHMARK_DATA = {
             "name": "pretty-deep-nested-args",
             "value": 17638,
             "range": "± 123",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "50077758+QuadnucYard@users.noreply.github.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3bad03d9f19bc98f1b1d2993566c1cd236a4f0b5",
+          "message": "ci: enhance benchmarking workflow with parallelism and caching (#360)\n\n* ci: enhance benchmarking workflow with parallelism and caching\n\n* fix: install critcmp\n\n* fix: use standard cache\n\n* support force rerun\n\n* improve order\n\n* use workflow call\n\n* fix: secrets\n\n* use file hash\n\n* fix: input default value\n\n* use two-step\n\n* save pr info\n\n* do not mix cache\n\n* minor fix",
+          "timestamp": "2025-07-12T10:41:43+08:00",
+          "tree_id": "387b30c922150d63ece520a303518f4230c2f9ae",
+          "url": "https://github.com/typstyle-rs/typstyle/commit/3bad03d9f19bc98f1b1d2993566c1cd236a4f0b5"
+        },
+        "date": 1752288302406,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 867891,
+            "range": "± 13912",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 12749872,
+            "range": "± 122355",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 764370,
+            "range": "± 9609",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1881409,
+            "range": "± 29852",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 542249,
+            "range": "± 2248",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1313266,
+            "range": "± 24435",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3490712,
+            "range": "± 26429",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2240945,
+            "range": "± 9428",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1254036,
+            "range": "± 18261",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-deep-nested-args",
+            "value": 17402,
+            "range": "± 45",
             "unit": "ns/iter"
           }
         ]
