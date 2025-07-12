@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752307894033,
+  "lastUpdate": 1752332077389,
   "repoUrl": "https://github.com/typstyle-rs/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -14465,6 +14465,90 @@ window.BENCHMARK_DATA = {
             "name": "pretty-deep-nested-args",
             "value": 17593,
             "range": "± 51",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mgt@oi-wiki.org",
+            "name": "mgt",
+            "username": "Enter-tainer"
+          },
+          "committer": {
+            "email": "lwzbill@foxmail.com",
+            "name": "Wenzhuo Liu",
+            "username": "Enter-tainer"
+          },
+          "distinct": true,
+          "id": "c30715aea0190c1d7a169c7bd1de3fcd022c9cae",
+          "message": "feat(workflow): add Claude PR Assistant GitHub Action workflow",
+          "timestamp": "2025-07-12T22:52:02+08:00",
+          "tree_id": "b8746d88498d4b980c4c995e3459f2e183b868b3",
+          "url": "https://github.com/typstyle-rs/typstyle/commit/c30715aea0190c1d7a169c7bd1de3fcd022c9cae"
+        },
+        "date": 1752332077014,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 878525,
+            "range": "± 38565",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 15670659,
+            "range": "± 2103964",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 761166,
+            "range": "± 10200",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1885415,
+            "range": "± 28648",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 543210,
+            "range": "± 3835",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1320150,
+            "range": "± 27117",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3490467,
+            "range": "± 23571",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2235009,
+            "range": "± 79521",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1242004,
+            "range": "± 40669",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-deep-nested-args",
+            "value": 17541,
+            "range": "± 333",
             "unit": "ns/iter"
           }
         ]
