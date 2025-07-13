@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752332077389,
+  "lastUpdate": 1752377757028,
   "repoUrl": "https://github.com/typstyle-rs/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -14549,6 +14549,90 @@ window.BENCHMARK_DATA = {
             "name": "pretty-deep-nested-args",
             "value": 17541,
             "range": "± 333",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mgt@oi-wiki.org",
+            "name": "mgt",
+            "username": "Enter-tainer"
+          },
+          "committer": {
+            "email": "lwzbill@foxmail.com",
+            "name": "Wenzhuo Liu",
+            "username": "Enter-tainer"
+          },
+          "distinct": true,
+          "id": "eea4c5897e65acd6b48cc8139b78ba3227837a3b",
+          "message": "fix: use portable relative URL for git submodule\n\nChange submodule URL from absolute SSH format to relative path format\n(../../QuadnucYard/typst-hypraw.git) to make it protocol-agnostic.\n\nThis allows users to clone the repository without requiring a GitHub\naccount, as the relative URL will resolve correctly regardless of\nwhether HTTPS or SSH is used for the initial clone.\n\nFixes #347",
+          "timestamp": "2025-07-13T11:33:24+08:00",
+          "tree_id": "308bc1ccb0504a85980ae3e6fa03fba2a441adcc",
+          "url": "https://github.com/typstyle-rs/typstyle/commit/eea4c5897e65acd6b48cc8139b78ba3227837a3b"
+        },
+        "date": 1752377756738,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 871581,
+            "range": "± 22169",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 13775267,
+            "range": "± 1370998",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 751708,
+            "range": "± 4550",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1871778,
+            "range": "± 31336",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 541541,
+            "range": "± 6486",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1300330,
+            "range": "± 11422",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3463737,
+            "range": "± 16496",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2221612,
+            "range": "± 10105",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1244322,
+            "range": "± 34065",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-deep-nested-args",
+            "value": 17518,
+            "range": "± 51",
             "unit": "ns/iter"
           }
         ]
