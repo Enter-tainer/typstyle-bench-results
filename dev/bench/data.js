@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752746851289,
+  "lastUpdate": 1752749535108,
   "repoUrl": "https://github.com/typstyle-rs/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -14969,6 +14969,90 @@ window.BENCHMARK_DATA = {
             "name": "pretty-deep-nested-args",
             "value": 17378,
             "range": "± 56",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "quadnucyard@gmail.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "committer": {
+            "email": "50077758+QuadnucYard@users.noreply.github.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "distinct": true,
+          "id": "3b923e5230f953be80728056795caa12b96bffdc",
+          "message": "feat: support partial config in WASM bindings",
+          "timestamp": "2025-07-17T18:49:45+08:00",
+          "tree_id": "9641595f9cf5e69ac6c24d211df45bd1dd60ddc3",
+          "url": "https://github.com/typstyle-rs/typstyle/commit/3b923e5230f953be80728056795caa12b96bffdc"
+        },
+        "date": 1752749534825,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 869142,
+            "range": "± 6677",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 12750143,
+            "range": "± 439386",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 750275,
+            "range": "± 12617",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1875705,
+            "range": "± 30952",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 539563,
+            "range": "± 2694",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1310032,
+            "range": "± 18393",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3488752,
+            "range": "± 18744",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2252995,
+            "range": "± 65816",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1250417,
+            "range": "± 16785",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-deep-nested-args",
+            "value": 17344,
+            "range": "± 51",
             "unit": "ns/iter"
           }
         ]
