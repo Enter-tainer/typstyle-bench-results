@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752904449799,
+  "lastUpdate": 1752935031083,
   "repoUrl": "https://github.com/typstyle-rs/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -15809,6 +15809,90 @@ window.BENCHMARK_DATA = {
             "name": "pretty-deep-nested-args",
             "value": 16386,
             "range": "± 61",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4a9bc05c29a07b1a49cdc823d78cf4f147c0e29e",
+          "message": "docs: update npm related docs\n\n* Initial plan\n\n* Add npm package badges and documentation\n\nCo-authored-by: Enter-tainer <25521218+Enter-tainer@users.noreply.github.com>\n\n* Remove typstyle-core npm package references, keep only @typstyle/typstyle-wasm-bundler\n\nCo-authored-by: Enter-tainer <25521218+Enter-tainer@users.noreply.github.com>\n\n* Update docs/pages/installation.typ\n\n* Update installation documentation\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: Enter-tainer <25521218+Enter-tainer@users.noreply.github.com>\nCo-authored-by: Wenzhuo Liu <lwzbill@foxmail.com>\nCo-authored-by: QuadnucYard <quadnucyard@gmail.com>",
+          "timestamp": "2025-07-19T22:21:22+08:00",
+          "tree_id": "3100a4d31dabf40d4fa6f4d5fae64b0bf413f045",
+          "url": "https://github.com/typstyle-rs/typstyle/commit/4a9bc05c29a07b1a49cdc823d78cf4f147c0e29e"
+        },
+        "date": 1752935030675,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 835918,
+            "range": "± 4648",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 20169047,
+            "range": "± 2180475",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 723772,
+            "range": "± 7458",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1806341,
+            "range": "± 14524",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 516297,
+            "range": "± 3386",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1251389,
+            "range": "± 22739",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3341317,
+            "range": "± 12054",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2137362,
+            "range": "± 7569",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1196432,
+            "range": "± 44259",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-deep-nested-args",
+            "value": 16482,
+            "range": "± 36",
             "unit": "ns/iter"
           }
         ]
