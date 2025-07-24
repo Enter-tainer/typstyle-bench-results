@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753324484242,
+  "lastUpdate": 1753344223970,
   "repoUrl": "https://github.com/typstyle-rs/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -16061,6 +16061,90 @@ window.BENCHMARK_DATA = {
             "name": "pretty-deep-nested-args",
             "value": 16903,
             "range": "± 46",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "50077758+QuadnucYard@users.noreply.github.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "92eac7ce8792f0c2bf2962f97a33f28f4ecb6d11",
+          "message": "feat(web): persist playground state in url (#386)\n\n* feat(web): persist playground state\n\n* refactor: tidy up url handling\n\n* refactor: formatter related\n\n* dev: add function to convert config\n\n* feat: url persistence\n\n* dev: clean up\n\n* refactor: rename to lineWidth and indentWidth\n\n* fix: clean decoded options\n\n* dev: allow longer url",
+          "timestamp": "2025-07-24T16:00:55+08:00",
+          "tree_id": "a3e477dfb122dbd3c5d9f8a011ae6f4cc0692401",
+          "url": "https://github.com/typstyle-rs/typstyle/commit/92eac7ce8792f0c2bf2962f97a33f28f4ecb6d11"
+        },
+        "date": 1753344223692,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 839248,
+            "range": "± 12111",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 11977908,
+            "range": "± 577604",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 711659,
+            "range": "± 4331",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1776725,
+            "range": "± 21316",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 512361,
+            "range": "± 9018",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1233495,
+            "range": "± 21633",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3293125,
+            "range": "± 53689",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2132638,
+            "range": "± 13351",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1189918,
+            "range": "± 46456",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-deep-nested-args",
+            "value": 16456,
+            "range": "± 147",
             "unit": "ns/iter"
           }
         ]
