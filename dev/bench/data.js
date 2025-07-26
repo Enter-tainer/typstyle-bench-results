@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753507060323,
+  "lastUpdate": 1753527477801,
   "repoUrl": "https://github.com/typstyle-rs/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -16733,6 +16733,90 @@ window.BENCHMARK_DATA = {
             "name": "pretty-deep-nested-args",
             "value": 16435,
             "range": "± 32",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "quadnucyard@gmail.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "committer": {
+            "email": "50077758+QuadnucYard@users.noreply.github.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "distinct": true,
+          "id": "81ffc74d7349576b89a48a2e8714e6b0a1011f2b",
+          "message": "feat(web): add error boundary in playground",
+          "timestamp": "2025-07-26T18:55:21+08:00",
+          "tree_id": "99453f098be2653cb8ef060b040e7963676bafe6",
+          "url": "https://github.com/typstyle-rs/typstyle/commit/81ffc74d7349576b89a48a2e8714e6b0a1011f2b"
+        },
+        "date": 1753527477095,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 833571,
+            "range": "± 3593",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 11953369,
+            "range": "± 119509",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 717483,
+            "range": "± 21321",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1810057,
+            "range": "± 12227",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 526320,
+            "range": "± 2685",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1264354,
+            "range": "± 17680",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3352325,
+            "range": "± 23503",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2155484,
+            "range": "± 11971",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1212106,
+            "range": "± 14077",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-deep-nested-args",
+            "value": 16252,
+            "range": "± 584",
             "unit": "ns/iter"
           }
         ]
