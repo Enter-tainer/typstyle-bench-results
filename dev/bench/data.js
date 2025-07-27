@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753606429456,
+  "lastUpdate": 1753633086327,
   "repoUrl": "https://github.com/typstyle-rs/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -16985,6 +16985,90 @@ window.BENCHMARK_DATA = {
             "name": "pretty-deep-nested-args",
             "value": 16611,
             "range": "± 255",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "50077758+QuadnucYard@users.noreply.github.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8c98a3b7d8d89b2fa92dc382969de82bd8c58140",
+          "message": "feat: use fine-grained node cover for markup, code, math (#398)",
+          "timestamp": "2025-07-28T00:15:10+08:00",
+          "tree_id": "78ab988c67b777774db8f863b065ff787d477a6b",
+          "url": "https://github.com/typstyle-rs/typstyle/commit/8c98a3b7d8d89b2fa92dc382969de82bd8c58140"
+        },
+        "date": 1753633086007,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 833063,
+            "range": "± 6347",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 11985966,
+            "range": "± 63252",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 716967,
+            "range": "± 5420",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1756369,
+            "range": "± 25381",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 507931,
+            "range": "± 2805",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1227864,
+            "range": "± 15044",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3299885,
+            "range": "± 8951",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2108104,
+            "range": "± 13205",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1184654,
+            "range": "± 16508",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-deep-nested-args",
+            "value": 16325,
+            "range": "± 61",
             "unit": "ns/iter"
           }
         ]
