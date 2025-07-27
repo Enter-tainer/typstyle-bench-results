@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753604354698,
+  "lastUpdate": 1753606429456,
   "repoUrl": "https://github.com/typstyle-rs/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -16901,6 +16901,90 @@ window.BENCHMARK_DATA = {
             "name": "pretty-deep-nested-args",
             "value": 16182,
             "range": "± 240",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f32d92bd128b7b5ebc1db6c9d5d5e0e07224ec22",
+          "message": "fix: misplaced standalone comments in chains (#383)\n\n* fix: misplaced line comments in chains\n\n* refactor: simplify chain processing logic\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: QuadnucYard <50077758+QuadnucYard@users.noreply.github.com>",
+          "timestamp": "2025-07-27T16:51:19+08:00",
+          "tree_id": "c9ab4b827fabdf252db6c39896752e68fc9d5488",
+          "url": "https://github.com/typstyle-rs/typstyle/commit/f32d92bd128b7b5ebc1db6c9d5d5e0e07224ec22"
+        },
+        "date": 1753606428895,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 821773,
+            "range": "± 4330",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 11929064,
+            "range": "± 319947",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 713336,
+            "range": "± 7608",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1758985,
+            "range": "± 27108",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 503986,
+            "range": "± 1958",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1236112,
+            "range": "± 16848",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3314051,
+            "range": "± 19460",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2103329,
+            "range": "± 6388",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1180215,
+            "range": "± 19867",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-deep-nested-args",
+            "value": 16611,
+            "range": "± 255",
             "unit": "ns/iter"
           }
         ]
