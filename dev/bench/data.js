@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753527477801,
+  "lastUpdate": 1753604354698,
   "repoUrl": "https://github.com/typstyle-rs/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -16817,6 +16817,90 @@ window.BENCHMARK_DATA = {
             "name": "pretty-deep-nested-args",
             "value": 16252,
             "range": "± 584",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tinger@tinger.dev",
+            "name": "tinger",
+            "username": "tingerrr"
+          },
+          "committer": {
+            "email": "lwzbill@foxmail.com",
+            "name": "Wenzhuo Liu",
+            "username": "Enter-tainer"
+          },
+          "distinct": true,
+          "id": "86490bdba717a7b705375154b50c1ba30e58f7ed",
+          "message": "fix: Fix missing manifest key\n\nThis is inherited within the crates, but not set in the workspace\nmanifest.",
+          "timestamp": "2025-07-27T16:16:41+08:00",
+          "tree_id": "13a4373aa8987844c738c109c79e4ae639b21de8",
+          "url": "https://github.com/typstyle-rs/typstyle/commit/86490bdba717a7b705375154b50c1ba30e58f7ed"
+        },
+        "date": 1753604354108,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 831491,
+            "range": "± 14391",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 12921457,
+            "range": "± 2023472",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 719413,
+            "range": "± 8685",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1816981,
+            "range": "± 14898",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 523432,
+            "range": "± 3913",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1267371,
+            "range": "± 20473",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3364470,
+            "range": "± 22202",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2153318,
+            "range": "± 11388",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1213343,
+            "range": "± 16390",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-deep-nested-args",
+            "value": 16182,
+            "range": "± 240",
             "unit": "ns/iter"
           }
         ]
