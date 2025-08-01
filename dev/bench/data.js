@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753970380445,
+  "lastUpdate": 1754048430763,
   "repoUrl": "https://github.com/typstyle-rs/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -17579,6 +17579,96 @@ window.BENCHMARK_DATA = {
             "name": "pretty-ai-comprehensive-showcase",
             "value": 888240,
             "range": "± 9948",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "quadnucyard@gmail.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "committer": {
+            "email": "50077758+QuadnucYard@users.noreply.github.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "distinct": true,
+          "id": "eea1a6d852dc459c5b59db72dd9c597b9cf1d291",
+          "message": "feat(web): add option to show output of selection in playground",
+          "timestamp": "2025-08-01T19:37:47+08:00",
+          "tree_id": "d6fc9eb305a3629b84a423041876bddd1eb328f2",
+          "url": "https://github.com/typstyle-rs/typstyle/commit/eea1a6d852dc459c5b59db72dd9c597b9cf1d291"
+        },
+        "date": 1754048430137,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 849454,
+            "range": "± 12564",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 11837630,
+            "range": "± 131069",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 741999,
+            "range": "± 15532",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1757912,
+            "range": "± 16368",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 515559,
+            "range": "± 4264",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1247654,
+            "range": "± 10920",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3330136,
+            "range": "± 21349",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2122252,
+            "range": "± 9267",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1189229,
+            "range": "± 27780",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-deep-nested-args",
+            "value": 17727,
+            "range": "± 62",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-ai-comprehensive-showcase",
+            "value": 888344,
+            "range": "± 5115",
             "unit": "ns/iter"
           }
         ]
