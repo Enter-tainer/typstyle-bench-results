@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754149636110,
+  "lastUpdate": 1754149688826,
   "repoUrl": "https://github.com/typstyle-rs/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -17939,6 +17939,96 @@ window.BENCHMARK_DATA = {
             "name": "pretty-ai-comprehensive-showcase",
             "value": 888845,
             "range": "± 3612",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "quadnucyard@gmail.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "committer": {
+            "email": "50077758+QuadnucYard@users.noreply.github.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "distinct": true,
+          "id": "e4de3cab0eacf6a1d912395410fc9c2606f5b465",
+          "message": "ci: split workflows for building documentation and playground, and add check&test for playground",
+          "timestamp": "2025-08-02T23:45:04+08:00",
+          "tree_id": "46dbf4a93bdfc24c4a59ca0af5e2ae18b575652d",
+          "url": "https://github.com/typstyle-rs/typstyle/commit/e4de3cab0eacf6a1d912395410fc9c2606f5b465"
+        },
+        "date": 1754149688517,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 847188,
+            "range": "± 5001",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 12095905,
+            "range": "± 432373",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 741817,
+            "range": "± 6351",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1776736,
+            "range": "± 16216",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 517592,
+            "range": "± 4126",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1249246,
+            "range": "± 110733",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3318240,
+            "range": "± 11502",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2119938,
+            "range": "± 11312",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1198855,
+            "range": "± 11810",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-deep-nested-args",
+            "value": 18163,
+            "range": "± 64",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-ai-comprehensive-showcase",
+            "value": 886904,
+            "range": "± 5194",
             "unit": "ns/iter"
           }
         ]
