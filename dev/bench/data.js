@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754148882589,
+  "lastUpdate": 1754149629374,
   "repoUrl": "https://github.com/typstyle-rs/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -17759,6 +17759,96 @@ window.BENCHMARK_DATA = {
             "name": "pretty-ai-comprehensive-showcase",
             "value": 886599,
             "range": "± 5816",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "quadnucyard@gmail.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "committer": {
+            "email": "50077758+QuadnucYard@users.noreply.github.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "distinct": true,
+          "id": "1047a4c10105bc775b723a8d333637f4379ce344",
+          "message": "feat: change indentation size of AST/IR from 4 to 2",
+          "timestamp": "2025-08-02T23:43:41+08:00",
+          "tree_id": "4a77ca7a25068c1a462b49fc0e357926e17da0d2",
+          "url": "https://github.com/typstyle-rs/typstyle/commit/1047a4c10105bc775b723a8d333637f4379ce344"
+        },
+        "date": 1754149629053,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 846976,
+            "range": "± 5498",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 11752620,
+            "range": "± 342479",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 742907,
+            "range": "± 3920",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1766508,
+            "range": "± 25398",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 518137,
+            "range": "± 2490",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1249891,
+            "range": "± 18145",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3313804,
+            "range": "± 9476",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2126546,
+            "range": "± 6443",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1202636,
+            "range": "± 22413",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-deep-nested-args",
+            "value": 18179,
+            "range": "± 65",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-ai-comprehensive-showcase",
+            "value": 894386,
+            "range": "± 5054",
             "unit": "ns/iter"
           }
         ]
