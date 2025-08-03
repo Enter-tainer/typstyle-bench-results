@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754202902243,
+  "lastUpdate": 1754207972224,
   "repoUrl": "https://github.com/typstyle-rs/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -18209,6 +18209,96 @@ window.BENCHMARK_DATA = {
             "name": "pretty-ai-comprehensive-showcase",
             "value": 895038,
             "range": "± 11430",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "quadnucyard@gmail.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "committer": {
+            "email": "50077758+QuadnucYard@users.noreply.github.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "distinct": true,
+          "id": "35e1e62137681d3e2b0649935f19aee162071a04",
+          "message": "fix: do not insert extra break at nil boundary for headings\n\nWe still have limitations in lists in content blocks.",
+          "timestamp": "2025-08-03T15:56:49+08:00",
+          "tree_id": "4627f27727e988112eeed8f406e5152a2fb23eba",
+          "url": "https://github.com/typstyle-rs/typstyle/commit/35e1e62137681d3e2b0649935f19aee162071a04"
+        },
+        "date": 1754207971844,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 861347,
+            "range": "± 10467",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 13096910,
+            "range": "± 1560358",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 754960,
+            "range": "± 74402",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1798287,
+            "range": "± 51417",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 523222,
+            "range": "± 3606",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1269350,
+            "range": "± 18493",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3360096,
+            "range": "± 103012",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2156615,
+            "range": "± 13581",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1212173,
+            "range": "± 23241",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-deep-nested-args",
+            "value": 18574,
+            "range": "± 79",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-ai-comprehensive-showcase",
+            "value": 902060,
+            "range": "± 11529",
             "unit": "ns/iter"
           }
         ]
