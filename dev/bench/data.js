@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764669130937,
+  "lastUpdate": 1764691197754,
   "repoUrl": "https://github.com/typstyle-rs/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -19649,6 +19649,96 @@ window.BENCHMARK_DATA = {
             "name": "pretty-ai-comprehensive-showcase",
             "value": 889057,
             "range": "± 11819",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9975871e35e4ad609b0860053a35fd8dec201671",
+          "message": "ci: migrate npm publishing to OIDC authentication (#448)\n\n* Initial plan\n\n* Configure npm publishing to use OIDC authentication\n\nCo-authored-by: Enter-tainer <25521218+Enter-tainer@users.noreply.github.com>\n\n* Pin npm version to ^11.5.1 for OIDC compatibility\n\nCo-authored-by: Enter-tainer <25521218+Enter-tainer@users.noreply.github.com>\n\n* Remove unnecessary npm update step\n\nCo-authored-by: Enter-tainer <25521218+Enter-tainer@users.noreply.github.com>\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: Enter-tainer <25521218+Enter-tainer@users.noreply.github.com>",
+          "timestamp": "2025-12-02T23:57:09+08:00",
+          "tree_id": "2a6cbd281ad71ac13df7e5862c5a43fc95e07991",
+          "url": "https://github.com/typstyle-rs/typstyle/commit/9975871e35e4ad609b0860053a35fd8dec201671"
+        },
+        "date": 1764691197369,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 851126,
+            "range": "± 4264",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 11806879,
+            "range": "± 416167",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 747316,
+            "range": "± 8997",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1775827,
+            "range": "± 31155",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 511944,
+            "range": "± 5262",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1241990,
+            "range": "± 17379",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3306494,
+            "range": "± 29003",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2132250,
+            "range": "± 40311",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1191999,
+            "range": "± 22945",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-deep-nested-args",
+            "value": 17464,
+            "range": "± 479",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-ai-comprehensive-showcase",
+            "value": 885485,
+            "range": "± 10795",
             "unit": "ns/iter"
           }
         ]
