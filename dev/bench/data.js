@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761749413354,
+  "lastUpdate": 1764669130937,
   "repoUrl": "https://github.com/typstyle-rs/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -19559,6 +19559,96 @@ window.BENCHMARK_DATA = {
             "name": "pretty-ai-comprehensive-showcase",
             "value": 888734,
             "range": "± 18847",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5f9c589213e1a8b2665d1232d8fc8db6c054feba",
+          "message": "ci: migrate crates.io publishing to OIDC trust publishing (#447)\n\n* Initial plan\n\n* Migrate crates.io publishing to OIDC trust publishing\n\n- Add environment: release for enhanced security\n- Add id-token: write permission for OIDC token exchange\n- Use rust-lang/crates-io-auth-action@v1 for authentication\n- Update cargo publish to use OIDC token instead of secret\n- Pass required permissions from release.yml to publish-crates workflow\n\nCo-authored-by: Enter-tainer <25521218+Enter-tainer@users.noreply.github.com>\n\n* Apply suggestion from @Enter-tainer\n\n* Apply suggestion from @Enter-tainer\n\n* Fix: Always run OIDC auth for dry-run publishing\n\ncargo publish --dry-run still requires authentication to verify against\nthe registry. The auth step now runs unconditionally, and both dry-run\nand actual publish steps use the OIDC token.\n\nCo-authored-by: Enter-tainer <25521218+Enter-tainer@users.noreply.github.com>\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: Enter-tainer <25521218+Enter-tainer@users.noreply.github.com>\nCo-authored-by: Wenzhuo Liu <lwzbill@foxmail.com>",
+          "timestamp": "2025-12-02T17:48:27+08:00",
+          "tree_id": "fb532a16a1edda5e803be4cd727b92f2c1fa3d70",
+          "url": "https://github.com/typstyle-rs/typstyle/commit/5f9c589213e1a8b2665d1232d8fc8db6c054feba"
+        },
+        "date": 1764669130443,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 843745,
+            "range": "± 11553",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 12924055,
+            "range": "± 1200017",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 748502,
+            "range": "± 10521",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1778969,
+            "range": "± 11674",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 520006,
+            "range": "± 12471",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1244069,
+            "range": "± 10996",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3311758,
+            "range": "± 110528",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2129164,
+            "range": "± 11564",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1196475,
+            "range": "± 12139",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-deep-nested-args",
+            "value": 17709,
+            "range": "± 48",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-ai-comprehensive-showcase",
+            "value": 889057,
+            "range": "± 11819",
             "unit": "ns/iter"
           }
         ]
