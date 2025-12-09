@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764691197754,
+  "lastUpdate": 1765269721932,
   "repoUrl": "https://github.com/typstyle-rs/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -19739,6 +19739,96 @@ window.BENCHMARK_DATA = {
             "name": "pretty-ai-comprehensive-showcase",
             "value": 885485,
             "range": "± 10795",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "quadnucyard@gmail.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "committer": {
+            "email": "50077758+QuadnucYard@users.noreply.github.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "distinct": true,
+          "id": "a9e44e2888d80dabd4244daf3124b57fb61f5fed",
+          "message": "feat: update shiroa and hypraw in docs",
+          "timestamp": "2025-12-09T16:39:11+08:00",
+          "tree_id": "c3cf18eb49cb8886b7af02751dd59102523d051d",
+          "url": "https://github.com/typstyle-rs/typstyle/commit/a9e44e2888d80dabd4244daf3124b57fb61f5fed"
+        },
+        "date": 1765269721542,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 841011,
+            "range": "± 4001",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 11682531,
+            "range": "± 77981",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 745830,
+            "range": "± 12165",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1776445,
+            "range": "± 23649",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 515895,
+            "range": "± 2067",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1250494,
+            "range": "± 20467",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3293121,
+            "range": "± 9901",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2123630,
+            "range": "± 37072",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1187770,
+            "range": "± 22100",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-deep-nested-args",
+            "value": 17489,
+            "range": "± 88",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-ai-comprehensive-showcase",
+            "value": 886438,
+            "range": "± 3927",
             "unit": "ns/iter"
           }
         ]
