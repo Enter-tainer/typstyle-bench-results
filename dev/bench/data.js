@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766472472415,
+  "lastUpdate": 1766475046977,
   "repoUrl": "https://github.com/typstyle-rs/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -19919,6 +19919,96 @@ window.BENCHMARK_DATA = {
             "name": "pretty-ai-comprehensive-showcase",
             "value": 880562,
             "range": "± 3573",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a2cc9d0cfa36f4642a69f12f1f827d96ffd0ad81",
+          "message": "feat: preserve blank lines between elements in list-like structures (capped at 1) (#451)\n\nCo-authored-by: QuadnucYard <50077758+QuadnucYard@users.noreply.github.com>",
+          "timestamp": "2025-12-23T15:27:54+08:00",
+          "tree_id": "b945e5902539be6b29d4473ee0af83f84f0e6d76",
+          "url": "https://github.com/typstyle-rs/typstyle/commit/a2cc9d0cfa36f4642a69f12f1f827d96ffd0ad81"
+        },
+        "date": 1766475046357,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 848138,
+            "range": "± 23612",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 13129950,
+            "range": "± 749463",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 751021,
+            "range": "± 8507",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1791036,
+            "range": "± 22497",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 518176,
+            "range": "± 3627",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1258182,
+            "range": "± 19733",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3351946,
+            "range": "± 25709",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2148456,
+            "range": "± 9322",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1210234,
+            "range": "± 15539",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-deep-nested-args",
+            "value": 17638,
+            "range": "± 64",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-ai-comprehensive-showcase",
+            "value": 899547,
+            "range": "± 4755",
             "unit": "ns/iter"
           }
         ]
