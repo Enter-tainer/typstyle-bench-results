@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769576171071,
+  "lastUpdate": 1771405904720,
   "repoUrl": "https://github.com/typstyle-rs/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -20909,6 +20909,96 @@ window.BENCHMARK_DATA = {
             "name": "pretty-ai-comprehensive-showcase",
             "value": 878187,
             "range": "± 10862",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mgt@oi-wiki.org",
+            "name": "mgt",
+            "username": "Enter-tainer"
+          },
+          "committer": {
+            "email": "lwzbill@foxmail.com",
+            "name": "Wenzhuo Liu",
+            "username": "Enter-tainer"
+          },
+          "distinct": true,
+          "id": "a4d423d4f2e33e3848f43c0049b1ba20e634c7a2",
+          "message": "feat(playground): Monarch syntax highlighting for AST/IR\n\nAdd Monarch tokenizer language definitions for typstyle AST and Pretty\nIR debug output, with semantic token classification:\n\n- ast-language.ts: tokenizer with keyword/punctuation/type node\n  classification via Monarch `cases` matching\n- ir-language.ts: tokenizer with keyword (leaf nodes) and compound\n  (container nodes) classification\n- theme-registry.ts: custom token color rules (LIGHT/DARK) for Monarch\n  tokens, injected via `extraRules` parameter in theme registration\n- monaco.ts: wire up extraRules when registering playground themes",
+          "timestamp": "2026-02-18T17:08:05+08:00",
+          "tree_id": "8cafeedf61114d27994a61ef3ecf65749f86a5bd",
+          "url": "https://github.com/typstyle-rs/typstyle/commit/a4d423d4f2e33e3848f43c0049b1ba20e634c7a2"
+        },
+        "date": 1771405904224,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 842228,
+            "range": "± 4750",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 11981933,
+            "range": "± 392818",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 743005,
+            "range": "± 13095",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1750219,
+            "range": "± 18221",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 509657,
+            "range": "± 4182",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1227164,
+            "range": "± 15208",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3259146,
+            "range": "± 16903",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2078427,
+            "range": "± 10503",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1176305,
+            "range": "± 18252",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-deep-nested-args",
+            "value": 16675,
+            "range": "± 188",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-ai-comprehensive-showcase",
+            "value": 875861,
+            "range": "± 5032",
             "unit": "ns/iter"
           }
         ]
