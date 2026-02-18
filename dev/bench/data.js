@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771406259034,
+  "lastUpdate": 1771406926577,
   "repoUrl": "https://github.com/typstyle-rs/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -21089,6 +21089,96 @@ window.BENCHMARK_DATA = {
             "name": "pretty-ai-comprehensive-showcase",
             "value": 871554,
             "range": "± 12480",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mgt@oi-wiki.org",
+            "name": "mgt",
+            "username": "Enter-tainer"
+          },
+          "committer": {
+            "email": "lwzbill@foxmail.com",
+            "name": "Wenzhuo Liu",
+            "username": "Enter-tainer"
+          },
+          "distinct": true,
+          "id": "04706dc316e44e8bff0a6108a02ec8222265d26b",
+          "message": "fix(playground): use registered AST/IR language IDs in editor panels\n\nWire up AST_LANGUAGE_ID and IR_LANGUAGE_ID from config to the output\neditor panels, replacing the generic \"json\" and \"python\" languages.\nThis activates the Monarch syntax highlighting registered in #470.\n\nSlack-Thread: https://metabit-trading.slack.com/archives/D0AC2E6SESV/p1771245261450569",
+          "timestamp": "2026-02-18T17:26:04+08:00",
+          "tree_id": "09a276b883a6fa591621988ccd1057e721984a57",
+          "url": "https://github.com/typstyle-rs/typstyle/commit/04706dc316e44e8bff0a6108a02ec8222265d26b"
+        },
+        "date": 1771406926259,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 838513,
+            "range": "± 8937",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 12109257,
+            "range": "± 1041564",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 743974,
+            "range": "± 7510",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1753103,
+            "range": "± 21408",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 509577,
+            "range": "± 3519",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1227358,
+            "range": "± 16510",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3259487,
+            "range": "± 12446",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2082223,
+            "range": "± 7582",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1182032,
+            "range": "± 17720",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-deep-nested-args",
+            "value": 16919,
+            "range": "± 81",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-ai-comprehensive-showcase",
+            "value": 871055,
+            "range": "± 5756",
             "unit": "ns/iter"
           }
         ]
