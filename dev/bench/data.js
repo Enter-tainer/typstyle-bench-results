@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771405904720,
+  "lastUpdate": 1771406259034,
   "repoUrl": "https://github.com/typstyle-rs/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -20999,6 +20999,96 @@ window.BENCHMARK_DATA = {
             "name": "pretty-ai-comprehensive-showcase",
             "value": 875861,
             "range": "± 5032",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mgt@oi-wiki.org",
+            "name": "mgt",
+            "username": "Enter-tainer"
+          },
+          "committer": {
+            "email": "mgt@oi-wiki.org",
+            "name": "mgt",
+            "username": "Enter-tainer"
+          },
+          "distinct": true,
+          "id": "59f821dfcce502193ad80cce367f38470e9e257d",
+          "message": "fix(playground): register AST/IR Monarch languages in Monaco setup\n\nThe previous commit added language definitions but missed registering\nthem in initMonaco(), so the syntax highlighting had no effect.",
+          "timestamp": "2026-02-18T09:14:49Z",
+          "tree_id": "95c8cb9dde592a6f82b1fe871aa62c147344e1bc",
+          "url": "https://github.com/typstyle-rs/typstyle/commit/59f821dfcce502193ad80cce367f38470e9e257d"
+        },
+        "date": 1771406258217,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 838455,
+            "range": "± 36892",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 11787639,
+            "range": "± 223174",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 736026,
+            "range": "± 3743",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1740367,
+            "range": "± 13439",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 505618,
+            "range": "± 4039",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1224596,
+            "range": "± 15857",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3247709,
+            "range": "± 11985",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2069504,
+            "range": "± 8309",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1184457,
+            "range": "± 13372",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-deep-nested-args",
+            "value": 16783,
+            "range": "± 51",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-ai-comprehensive-showcase",
+            "value": 871554,
+            "range": "± 12480",
             "unit": "ns/iter"
           }
         ]
