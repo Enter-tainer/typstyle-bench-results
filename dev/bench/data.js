@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771406926577,
+  "lastUpdate": 1771580261149,
   "repoUrl": "https://github.com/typstyle-rs/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -21179,6 +21179,96 @@ window.BENCHMARK_DATA = {
             "name": "pretty-ai-comprehensive-showcase",
             "value": 871055,
             "range": "± 5756",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "lwzbill@foxmail.com",
+            "name": "Wenzhuo Liu",
+            "username": "Enter-tainer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "90433be27479d3ca5712409e3a7b05ab7ebc00b3",
+          "message": "feat(playground): bidirectional cursor sync between source, AST and formatted output (#471)\n\n* feat: AST debug formatter with span mapping infrastructure\n\nAdd a custom AST debug formatter that produces output identical to\nthe standard Debug format while recording source-to-output byte range\nmappings for leaf nodes. This enables cursor synchronization between\nsource text and AST output.\n\n- Add `SpanMapping` struct and `format_ast_with_mapping()` public API\n- Add `mapping` feature flag to typstyle-core\n- Add `parse_with_mapping()` WASM binding with UTF-16 offset conversion\n- Add comprehensive tests for format consistency and mapping coverage\n\n* feat(playground): bidirectional cursor sync between source and output\n\nAdd scroll synchronization that maps cursor positions between the\nsource editor and the active output panel (Formatted, AST).\n\nFormatted output uses anchor-based offset mapping (LCS on shared\ntokens), while AST output uses WASM span mappings from\nparse_with_mapping().\n\n- Add useCursorSync hook with debounced scroll tracking\n- Add offset-mapping utilities with anchor and span mapping modes\n- Add sync toggle button in MainLayout toolbar\n- Use display:none for inactive tabs to preserve editor state\n- Add revealLine API to CodeEditor for programmatic scrolling\n\n* refactor: extract AST mapping to dedicated module\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\n\n* fix: address clippy len_zero warning and trailing blank line\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 4.6 <noreply@anthropic.com>",
+          "timestamp": "2026-02-20T17:34:56+08:00",
+          "tree_id": "1d56e635ff00499d0e846c39edcce97c72e4fdf9",
+          "url": "https://github.com/typstyle-rs/typstyle/commit/90433be27479d3ca5712409e3a7b05ab7ebc00b3"
+        },
+        "date": 1771580260541,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 839883,
+            "range": "± 24577",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 11791542,
+            "range": "± 201402",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 736567,
+            "range": "± 4760",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1735974,
+            "range": "± 17320",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 507958,
+            "range": "± 3134",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1219492,
+            "range": "± 13061",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3239471,
+            "range": "± 8334",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2084734,
+            "range": "± 11558",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1170115,
+            "range": "± 21356",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-deep-nested-args",
+            "value": 16690,
+            "range": "± 160",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-ai-comprehensive-showcase",
+            "value": 864979,
+            "range": "± 3682",
             "unit": "ns/iter"
           }
         ]
