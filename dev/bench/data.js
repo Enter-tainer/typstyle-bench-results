@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771580261149,
+  "lastUpdate": 1780491821563,
   "repoUrl": "https://github.com/typstyle-rs/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -21269,6 +21269,96 @@ window.BENCHMARK_DATA = {
             "name": "pretty-ai-comprehensive-showcase",
             "value": 864979,
             "range": "± 3682",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "quadnucyard@gmail.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "committer": {
+            "email": "50077758+QuadnucYard@users.noreply.github.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "distinct": true,
+          "id": "fbdf91bd97b87905a62d200ddbfe1e08eb278e4e",
+          "message": "docs: add wasm building for playground development guide",
+          "timestamp": "2026-06-03T21:00:06+08:00",
+          "tree_id": "467478b4b515c58e3ec14ee3a3db990c8456c4c9",
+          "url": "https://github.com/typstyle-rs/typstyle/commit/fbdf91bd97b87905a62d200ddbfe1e08eb278e4e"
+        },
+        "date": 1780491820715,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 778578,
+            "range": "± 62025",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 13288238,
+            "range": "± 366386",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 696584,
+            "range": "± 25628",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1708795,
+            "range": "± 17695",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 413666,
+            "range": "± 7205",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1151568,
+            "range": "± 25812",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3290303,
+            "range": "± 12572",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2066382,
+            "range": "± 67110",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1126426,
+            "range": "± 22990",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-deep-nested-args",
+            "value": 16759,
+            "range": "± 153",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-ai-comprehensive-showcase",
+            "value": 816297,
+            "range": "± 7377",
             "unit": "ns/iter"
           }
         ]
