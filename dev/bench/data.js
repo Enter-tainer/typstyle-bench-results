@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1780644859938,
+  "lastUpdate": 1781876232827,
   "repoUrl": "https://github.com/typstyle-rs/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -21539,6 +21539,96 @@ window.BENCHMARK_DATA = {
             "name": "pretty-ai-comprehensive-showcase",
             "value": 864523,
             "range": "± 6652",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "50077758+QuadnucYard@users.noreply.github.com",
+            "name": "QuadnucYard",
+            "username": "QuadnucYard"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d4ca87fd16d0e0ec6030aa4c789798041b57ed92",
+          "message": "feat: upgrade typst to 0.15.0 (#482)\n\n- Upgrade typst and tinymist to 0.15.0.\n- Bump MSRV to 1.92, following Typst.\n- Migrate breaking typst API change (thanks to @ParaN3xus):\n  - `PagedDocument` fields become methods\n  - Syntax node API: `.text()` -> `.leaf_text()`, `.into_text()` -> `.full_text()` (no longer need to clone), `.erroneous()` -> `.diagnosis().errors`\n  - Massive math AST change. This resolves minor formatting issues with commas/semicolons in math args.\n - Update all deps to latest, except: vergen (breaking change), toml (defer until upstream update).\n - Skip some e2e fixtures that fail to compile due to breaking changes in symbols. Will handle them later.\n\n---------\n\nCo-authored-by: paran3xus <paran3xus007@gmail.com>\nCo-authored-by: mgt <lwzbill@foxmail.com>",
+          "timestamp": "2026-06-19T21:33:51+08:00",
+          "tree_id": "048f2594f90424b071681e49d44a0276c3dc32e8",
+          "url": "https://github.com/typstyle-rs/typstyle/commit/d4ca87fd16d0e0ec6030aa4c789798041b57ed92"
+        },
+        "date": 1781876232349,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 749570,
+            "range": "± 4683",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 12494501,
+            "range": "± 162889",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 675665,
+            "range": "± 13988",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1639515,
+            "range": "± 25149",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 394037,
+            "range": "± 8334",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1121248,
+            "range": "± 10744",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3210473,
+            "range": "± 7479",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2013102,
+            "range": "± 6610",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1086872,
+            "range": "± 12707",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-deep-nested-args",
+            "value": 16402,
+            "range": "± 106",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-ai-comprehensive-showcase",
+            "value": 782684,
+            "range": "± 5556",
             "unit": "ns/iter"
           }
         ]
