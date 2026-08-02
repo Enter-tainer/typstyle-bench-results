@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785650283940,
+  "lastUpdate": 1785650292807,
   "repoUrl": "https://github.com/typstyle-rs/typstyle",
   "entries": {
     "Rust Benchmark": [
@@ -22079,6 +22079,96 @@ window.BENCHMARK_DATA = {
             "name": "pretty-ai-comprehensive-showcase",
             "value": 852179,
             "range": "± 4754",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16736682+TheJanzap@users.noreply.github.com",
+            "name": "TheJanzap",
+            "username": "TheJanzap"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c910639a2d4886b98d020bbf306fb597f591fb1c",
+          "message": "refactor(core): Improve code readability and doc comments in `pretty/comment` (#488)",
+          "timestamp": "2026-07-28T10:58:40+08:00",
+          "tree_id": "fe94a04c2799f14df842da47a8317d34c9bb71fa",
+          "url": "https://github.com/typstyle-rs/typstyle/commit/c910639a2d4886b98d020bbf306fb597f591fb1c"
+        },
+        "date": 1785650292483,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "pretty-undergraduate-math",
+            "value": 813983,
+            "range": "± 5868",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cpe",
+            "value": 12247161,
+            "range": "± 1048289",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-cetz-manual",
+            "value": 721028,
+            "range": "± 8899",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-codly",
+            "value": 1706253,
+            "range": "± 19718",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-diagram",
+            "value": 494145,
+            "range": "± 3230",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-fletcher-draw",
+            "value": 1194958,
+            "range": "± 11667",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-tablex",
+            "value": 3206272,
+            "range": "± 83256",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-core",
+            "value": 2038906,
+            "range": "± 12043",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-touying-utils",
+            "value": 1145765,
+            "range": "± 10761",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-deep-nested-args",
+            "value": 16552,
+            "range": "± 60",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "pretty-ai-comprehensive-showcase",
+            "value": 859702,
+            "range": "± 12174",
             "unit": "ns/iter"
           }
         ]
